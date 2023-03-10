@@ -9,7 +9,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--brand-color);
-        margin-right: 76;
+        margin-right: 76px;
         margin-left: 156px;
       }
 .header{background-color: var(--white-color);
@@ -23,13 +23,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .header-list{display: flex;
-            gap: 40px;}
+            gap: 40px;
+            margin-top: 24px;
+            margin-bottom: 24px;}
 .header-nav{display: flex;
             align-items: center;
             margin-right: auto;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
-.header-add{list-style: none; font-style: normal}
+.header-add{list-style: none; font-style: normal;}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-mail{
     font-size: 16px;
