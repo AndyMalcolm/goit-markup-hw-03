@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--gray-color);}
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--brand-color);
+      }
+.header{background-color: var(--white-color);
+    border-bottom: 1px solid var(--lighter-color);}
+.header-link{
+    color: var(--darker-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.header-contacts{color: var(--gray-color); font-style: normal;}
+.header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
+.header-add{list-style: none; font-style: normal}
+.header-link:hover, .header-link:focus{color: var(--violet-color);}
+.header-mail{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);}
+.header-number{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+    text-transform: uppercase;}
+.sec-one{background-color: var(--darker-color);}
+.sec-h-one{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);}
+.sec-button{background-color: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    color: var(--white-color);}
+.sec-button:hover, .sec-button:focus{background-color: var(--light-color);
+color: var(--brand-color);}
+.link{text-decoration: none;}
+.list{list-style: none;}
+.sec-two-item{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--darker-color);}
+.sec-two-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);}
+.sec-three-h-two{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--darker-color);}
+.sec-four{background-color: var(--light-color);}
+.sec-four-h-two{ font-size: 36px;
+                line-height: 1.11;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                color:  var(--darker-color);}
+.sec-four-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--darker-color);}
+.sec-four-work{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);}
+.footer{background-color: var(--darker-color);}
+.logo-studio2{font-family: 'Raleway', sans-serif;
+    color: var(--light-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+.footer-text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--lighter-color);}
+    /*_____PORTFOLIO PAGE_____*/
+.buttons:hover{background-color: var(--violet-color); color: var(--white-color);}
+.buttons{font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--brand-color);
+    background-color: var(--light-color);
+    border: var(--lighter-color);}
+.port-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    color: var(--darker-color)}
+.port-category{
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: var(--gray-color)}
+.accent {
+         color: var(--darker-color) }
+.accent-footer{
+         color: var(--light-color)}
+:root{--brand-color: #4D5AE5;}
+:root{--gray-color: #434455;}
+:root{--light-color: #f4f4fd;}
+:root{--lighter-color:  #E7E9FC;}
+:root{--darker-color: #2E2F42;}
+:root{--violet-color: #404BBF;}
+:root{--white-color:  #FFFFFF;}
