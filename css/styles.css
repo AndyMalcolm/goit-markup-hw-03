@@ -29,6 +29,7 @@ body {
 .header-nav{display: flex;
             align-items: center;
             margin-right: auto;}
+.div-one{margin: auto;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none; font-style: normal;}
@@ -46,8 +47,11 @@ body {
     text-transform: uppercase;
     margin-left: 40px;
     margin-right: 156px;}
-.sec-one{background-color: var(--darker-color);}
-.sec-h-one{
+.sec-one{background-color: var(--darker-color);
+    Width: 1440px;
+    Height: 600px;}
+.sec-h-one{Width: 496px;
+    Height: 120px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
