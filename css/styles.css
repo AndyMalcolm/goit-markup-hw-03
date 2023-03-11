@@ -27,14 +27,14 @@ body {
             margin-top: 24px;
             margin-bottom: 24px;}
 .header-nav{display: flex;
-            align-items: center;
-            margin-right: auto;}
-.div-one{margin: auto;}
+            align-items: center;}
+.header-div{
+    margin-right: auto;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none; font-style: normal;}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
-.header-mail{
+.header-mail{margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -45,11 +45,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--gray-color);
     text-transform: uppercase;
-    margin-left: 40px;
     margin-right: 156px;}
 .sec-one{background-color: var(--darker-color);
     Width: 1440px;
     Height: 600px;}
+.div-one{margin: auto;}
 .sec-h-one{Width: 496px;
     Height: 120px;
     font-weight: 700;
@@ -57,7 +57,8 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--white-color);}
+    color: var(--white-color);
+    margin: auto;}
 .sec-button{background-color: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
