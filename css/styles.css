@@ -75,10 +75,9 @@ color: var(--brand-color);}
     display: flex;
     align-items: center;}
 .sec-two-list{gap: 24px;}
-.div-two{ 
-    max-width: 1458px;
-    margin: 0 auto;
-    padding: 0 15px;}
+.div-two{max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;}
 .sec-two-item{margin-top: 120px;
     margin-bottom: 8px;
     font-weight: 500;
