@@ -58,7 +58,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    margin: auto;}
+    margin: 0 auto;}
 .sec-button{background-color: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -75,18 +75,33 @@ color: var(--brand-color);}
 .list{list-style: none;
     display: flex;
     align-items: center;}
-.sec-two-item{
+.sec-two-list{gap: 24px;}
+.div-two{display: flex; 
+    justify-content: space-between; 
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-left: 156px;
+    margin-right: 156px;}
+.sec-two-item{margin-top: 120px;
+    margin-bottom: 8px;
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--darker-color);}
-.sec-two-text{
+    color: var(--darker-color);
+    Width: 264px;
+    Height: 24px;}
+.sec-two-text{Width: 264px;
+    Height: 72px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--gray-color);}
-.sec-three-h-two{
+    color: var(--gray-color);
+margin-bottom: 200px;}
+.div-three{ margin-left: 156px;
+            margin-right: 156px;}
+.sec-three-list{gap: 24px;}
+.sec-three-h-two{margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
