@@ -139,7 +139,9 @@ margin-bottom: 200px;}
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--gray-color);}
-.footer{background-color: var(--darker-color);}
+.footer{background-color: var(--darker-color);
+        padding-top: 312px;
+        display: flex;}
 .logo-studio2{font-family: 'Raleway', sans-serif;
     color: var(--light-color);
     font-weight: 800;
@@ -151,8 +153,14 @@ margin-bottom: 200px;}
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--lighter-color);}
+    color: var(--lighter-color);
+    width: 264px;
+    height: 72px;}
+
+    
     /*_____PORTFOLIO PAGE_____*/
+
+
 .buttons:hover{background-color: var(--violet-color); color: var(--white-color);}
 .buttons{font-family: "Roboto", sans-serif;
     font-weight: 500;
