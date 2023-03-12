@@ -67,7 +67,8 @@ body {
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    color: var(--white-color);}
+    color: var(--white-color);
+margin: 48px 635px 188px 635px;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
 .link{text-decoration: none;}
