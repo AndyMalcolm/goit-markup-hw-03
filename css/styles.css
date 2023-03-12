@@ -48,7 +48,8 @@ body {
     margin-right: 156px;}
 .sec-one{background-color: var(--darker-color);
         padding-top: 600px;}
-.div-one{margin: auto;}
+.div-one{display: flex;
+flex-direction: column;}
 .sec-h-one{width: 496px;
     height: 120px;
     font-weight: 700;
