@@ -53,7 +53,9 @@ body {
         flex-direction: column;}
 .container{width: 1158px;
             padding-right: 15px;
-            padding-left: 15px;}
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;}
 .sec-h-one{width: 496px;
     height: 120px;
     font-weight: 700;
