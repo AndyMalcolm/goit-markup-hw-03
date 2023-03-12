@@ -74,7 +74,7 @@ color: var(--brand-color);}
 .list{list-style: none;
     display: flex;
     align-items: center;}
-.sec-two-list{gap: 24px;}
+.sec-two-list{gap: 24px; padding: 0;}
 .div-two{max-width: 1158px;
         margin: 0 auto;
         padding: 0 15px;}
@@ -124,14 +124,15 @@ margin-bottom: 200px;}
                 margin-top: 120px;
                 margin-left: 639px;
                 margin-right: 639px;}
-.sec-four-name{margin-top: 32px; margin-bottom: 8px;
+.sec-four-name{
+    margin-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--darker-color);}
-.sec-four-work{
+.sec-four-work{padding-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
