@@ -47,7 +47,7 @@ body {
     text-transform: uppercase;
     margin-right: 156px;}
 .sec-one{background-color: var(--darker-color);
-        padding-top: 600px;;}
+        padding-top: 600px;}
 .div-one{margin: auto;}
 .sec-h-one{width: 496px;
     height: 120px;
@@ -96,7 +96,7 @@ color: var(--brand-color);}
 margin-bottom: 200px;}
 .div-three{ margin-left: 156px;
             margin-right: 156px;}
-.sec-three-list{gap: 24px;}
+.sec-three-list{gap: 24px; margin-bottom: 120px;}
 .sec-three-h-two{margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -108,18 +108,16 @@ margin-bottom: 200px;}
 .sec-four{background-color: var(--light-color);
         padding-top: 732px;}
 .sec-four-list{gap: 24px; margin-left: 156px;
-    margin-right: 156px;}
+    margin-right: 156px;    }
 .sec-four-h-two{ font-size: 36px;
                 line-height: 1.11;
                 text-align: center;
                 letter-spacing: 0.02em;
                 text-transform: capitalize;
                 color:  var(--darker-color);
-                width: 162px;
-                height: 40px;
+                margin-top: 120px;
                 margin-left: 639px;
-                margin-right: 639px;
-                margin-top: 120px;}
+                margin-right: 639px;}
 .sec-four-name{margin-top: 32px; margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
