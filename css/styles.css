@@ -47,9 +47,11 @@ body {
     text-transform: uppercase;
     margin-right: 156px;}
 .sec-one{background-color: var(--darker-color);
-        padding-top: 600px;}
+        padding-top: 188px;
+        padding-bottom: 188px;}
 .div-one{display: flex;
         flex-direction: column;}
+.container{}
 .sec-h-one{width: 496px;
     height: 120px;
     font-weight: 700;
@@ -69,7 +71,9 @@ body {
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     color: var(--white-color);
-margin: 48px 635px 188px 635px;}
+    max-width: 150px;
+    margin: 0 auto;
+    margin-top: 50px;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
 .link{text-decoration: none;}
