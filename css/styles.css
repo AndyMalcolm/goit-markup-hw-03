@@ -118,26 +118,25 @@ margin-bottom: 200px;}
     text-transform: capitalize;
     color: var(--darker-color);}
 .sec-four{background-color: var(--light-color);
-        padding-top: 732px;}
+    padding-top: 188px;
+    padding-bottom: 188px;}
 .div-four{display: flex;
           flex-direction: column;}
-.sec-four-list{gap: 24px; margin-left: 156px;
-    margin-right: 156px;}
+.sec-four-list{gap: 24px;}
 .sec-four-item{background-color: var(--white-color);
                 width: 264px;
                 height: 380px;
                 border-radius: 0px 0px 4px 4px;
                 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-                margin-bottom: 120px;}
+                padding-bottom: 120px;}
 .sec-four-h-two{ font-size: 36px;
                 line-height: 1.11;
                 text-align: center;
                 letter-spacing: 0.02em;
                 text-transform: capitalize;
                 color:  var(--darker-color);
-                margin-top: 120px;
-                margin-left: 639px;
-                margin-right: 639px;}
+                margin: 0 auto;
+                padding-bottom: 72px;}
 .sec-four-name{
     margin-top: 32px;
     font-weight: 500;
@@ -153,8 +152,8 @@ margin-bottom: 200px;}
     letter-spacing: 0.02em;
     color: var(--gray-color);}
 .footer{background-color: var(--darker-color);
-        padding-top: 312px;
-        display: flex;}
+    padding-top: 156px;
+    padding-bottom: 156px;}
 .logo-studio2{font-family: 'Raleway', sans-serif;
     color: var(--light-color);
     font-weight: 800;
