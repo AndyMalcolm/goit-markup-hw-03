@@ -186,7 +186,11 @@ margin-bottom: 200px;}
     cursor: pointer;
     color: var(--brand-color);
     background-color: var(--light-color);
-    border: var(--lighter-color);}
+    border: var(--lighter-color);
+    margin-top: 96px;}
+.buttons-ul{justify-content: center; 
+            gap: 24px;
+            padding-bottom: 72px;}
 .port-item{border: 1px solid #E7E9FC;}
 .port-name{
     font-weight: 500;
