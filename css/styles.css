@@ -160,8 +160,10 @@ margin-bottom: 200px;}
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
-.footer-text{
+    text-transform: uppercase;
+    padding-top: 101px;}
+.footer-text{margin-left: 156px;
+    padding-top: 18px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
