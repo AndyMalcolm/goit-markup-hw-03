@@ -106,8 +106,6 @@ color: var(--brand-color);}
     letter-spacing: 0.02em;
     color: var(--gray-color);
 margin-bottom: 200px;}
-.div-three{ margin-left: 156px;
-            margin-right: 156px;}
 .sec-three-list{gap: 24px; padding-bottom: 120px;}
 .sec-three-h-two{margin-bottom: 72px;
     font-weight: 700;
@@ -122,7 +120,7 @@ margin-bottom: 200px;}
     padding-bottom: 188px;}
 .div-four{display: flex;
           flex-direction: column;}
-.sec-four-list{gap: 24px;}
+.sec-four-list{gap: 24px; padding: 0;}
 .sec-four-item{background-color: var(--white-color);
                 width: 264px;
                 height: 380px;
