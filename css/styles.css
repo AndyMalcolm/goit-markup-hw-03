@@ -193,7 +193,9 @@ margin-bottom: 200px;}
 .port-list{ display: flex;
             flex-wrap: wrap;
             gap: 48px 24px;
-            justify-content: center;}
+            justify-content: center;
+            padding-right: 156px;
+        padding-left: 156px;}
 .port-name{padding-top: 32px;
         padding-bottom: 8px;
         padding-left: 16px;
