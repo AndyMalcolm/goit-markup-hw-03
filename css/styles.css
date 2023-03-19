@@ -16,18 +16,17 @@ body {
     border-bottom: 1px solid var(--lighter-color);
     display: flex;
     align-items: center;
-    margin: 0;
-    padding: 0;}
+    padding-right: 156px; padding-left: 156px;}
 .header-link{
     color: var(--darker-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-.header-list{display: flex;
+.header-list{
+            padding-left: 76px;
             gap: 40px;
-            margin-top: 24px;
-            margin-bottom: 24px;}
+            margin: 0; padding: 0;}
 .header-nav{display: flex;
             align-items: center;}
 .header-div{
@@ -80,14 +79,17 @@ body {
     max-width: 150px;
     margin: 0 auto;
     margin-top: 50px;
-    Width: 169px;
-    Height: 56px;}
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
 .link{text-decoration: none;}
 .list{list-style: none;
     display: flex;
     align-items: center;}
+.sec-two{padding: 0 156px 0 156px;}
 .sec-two-h-two{display: none;}
 .sec-two-list{gap: 24px; padding: 0; margin: 0;}
 .div-two{max-width: 1158px;
@@ -206,7 +208,7 @@ margin-bottom: 200px;}
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: var(--gray-color)}
-.accent {
+.accent {margin-right: 76px;
          color: var(--darker-color) }
 .accent-footer{
          color: var(--light-color)}
