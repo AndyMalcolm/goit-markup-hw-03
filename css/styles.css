@@ -190,16 +190,16 @@ margin-top: 8px;}
     margin-top: 96px;}
 .buttons-ul{justify-content: center; 
             gap: 24px;
-            margin-bottom: 72px;}
+            margin-bottom: 72px;
+            padding: 0;}
 .port-border{border-bottom: 1px solid #E7E9FC;
             border-left: 1px solid #E7E9FC;
-            border-right: 1px solid #E7E9FC;
-            padding: 0; margin: 0;}
+            border-right: 1px solid #E7E9FC;}
 .port-list{ display: flex;
             flex-wrap: wrap;
             gap: 48px 24px;
-            justify-content: center;
-        padding: 0; margin: 0;}
+            padding: 0; 
+            margin: 0;}
 .port-name{
     font-weight: 500;
     font-size: 20px;
