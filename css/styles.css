@@ -201,6 +201,7 @@ margin-top: 8px;}
             gap: 48px 24px;
             padding: 0;
             list-style: none;}
+.port-item{flex-basis: calc((100% - 48px) / 3);}
 .port-name{margin: 0;
     margin-top: 32px;
     margin-left: 16px;
