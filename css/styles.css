@@ -125,8 +125,8 @@ img{max-width: 100%; height: auto; display: block;}
     text-transform: capitalize;
     color: var(--darker-color);}
 .sec-four{background-color: var(--light-color);
-    padding-top: 366px;
-    padding-bottom: 366px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin-top: 120px;}
 .sec-four-item{background-color: var(--white-color);
                 width: 264px;
@@ -159,8 +159,8 @@ img{max-width: 100%; height: auto; display: block;}
 margin-top: 8px;}
 .sec-four-block{padding-top: 32px; padding-bottom: 32px;}
 .footer{background-color: var(--darker-color);
-    padding-top: 156px;
-    padding-bottom: 156px;}
+    padding-top: 100px;
+    padding-bottom: 100px;}
 .footer-div{margin-left: 156px;}
 .footer-text{
     margin-top: 18px;
