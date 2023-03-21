@@ -13,10 +13,7 @@ body {
         
       }
 .header{background-color: var(--white-color);
-    border-bottom: 1px solid var(--lighter-color);
-    display: flex;
-    align-items: center;
-    padding-right: 156px; padding-left: 156px;}
+    border-bottom: 1px solid var(--lighter-color);}
 .header-link{
     color: var(--darker-color);
     font-weight: 500;
@@ -24,13 +21,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;}
 .header-list{
-            padding-left: 76px;
             gap: 40px;
             margin: 0; padding: 0;}
 .header-nav{display: flex;
             align-items: center;}
-.header-div{
-    margin-right: auto;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none; font-style: normal;}
@@ -88,15 +82,21 @@ color: var(--brand-color);}
 .link{text-decoration: none;}
 .list{list-style: none;
     display: flex;
-    align-items: center;}
-.sec-two{padding: 0 156px 0 156px;}
-.visually-hidden{position: fixed;
-    transform: scale(0);}
+    align-items: center;
+    margin: 0; 
+    padding: 0;}
+.sec-two{padding: 120px 0 120px 0;}
+.visually-hidden{position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                border: 0;
+                padding: 0;
+                white-space: nowrap;
+                clip-path: inset(100%);
+                clip: rect(0 0 0 0);
+                overflow: hidden;}
 .sec-two-list{gap: 24px; padding: 0; margin: 0;}
-.div-two{max-width: 1158px;
-        padding: 0;
-        margin: 0 auto;
-        padding: 0 15px;}
 .sec-two-item{margin-top: 120px;
     margin-bottom: 8px;
     font-weight: 500;
