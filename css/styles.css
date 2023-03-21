@@ -13,8 +13,8 @@ body {
         margin-right: 76px;
       }
 .header{background-color: var(--white-color);
-    border-bottom: 1px solid var(--lighter-color);
-    display: flex;}
+    border-bottom: 1px solid var(--lighter-color);}
+.div-one{display: flex;}
 .header-link{
     color: var(--darker-color);
     font-weight: 500;
@@ -78,6 +78,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;}
+.sec-two-li{width: calc(100% - 72px) / 4;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
 .link{text-decoration: none;}
