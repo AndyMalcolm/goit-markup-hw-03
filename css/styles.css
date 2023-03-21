@@ -10,10 +10,11 @@ body {
         text-transform: uppercase;
         color: var(--brand-color);
         margin: 0;padding: 0;
-        
+        margin-right: 76px;
       }
 .header{background-color: var(--white-color);
-    border-bottom: 1px solid var(--lighter-color);}
+    border-bottom: 1px solid var(--lighter-color);
+    display: flex;}
 .header-link{
     color: var(--darker-color);
     font-weight: 500;
@@ -92,13 +93,12 @@ color: var(--brand-color);}
                 margin: -1px;
                 border: 0;
                 padding: 0;
-                white-space: nowrap;
+                white-space: nowrap;    
                 clip-path: inset(100%);
                 clip: rect(0 0 0 0);
                 overflow: hidden;}
 .sec-two-list{gap: 24px; padding: 0; margin: 0;}
-.sec-two-item{margin-top: 120px;
-    margin-bottom: 8px;
+.sec-two-item{
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 20px;
@@ -109,7 +109,7 @@ color: var(--brand-color);}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--gray-color);
-margin-bottom: 120px;}
+    }
 .sec-three-list{gap: 24px;
     margin: 0;
     margin-top: 72px;
@@ -220,7 +220,7 @@ margin-top: 8px;}
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: var(--gray-color)}
-.accent {margin-right: 76px;
+.accent {
          color: var(--darker-color) }
 .accent-footer{
          color: var(--light-color)}
