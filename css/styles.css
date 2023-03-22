@@ -28,10 +28,9 @@ body {
             align-items: center;}
 .header-contacts{color: var(--gray-color); font-style: normal;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
-.header-add{list-style: none; font-style: normal;}
+.header-add{list-style: none; font-style: normal; margin-left: 332px;}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-mail{margin-right: 40px;
-    margin-left: 332px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -84,7 +83,7 @@ body {
     border-radius: 4px;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
-.link{text-decoration: none;}
+.link{text-decoration: none; padding-top: 24px;padding-bottom: 24px;}
 .list{list-style: none;
     display: flex;
     align-items: center;
