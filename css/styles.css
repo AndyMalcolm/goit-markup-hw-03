@@ -83,7 +83,7 @@ body {
     border-radius: 4px;}
 .sec-button:hover, .sec-button:focus{background-color: var(--light-color);
 color: var(--brand-color);}
-.link{text-decoration: none; padding-top: 24px;padding-bottom: 24px;}
+.link{text-decoration: none;}
 .list{list-style: none;
     display: flex;
     align-items: center;
@@ -201,9 +201,9 @@ img{max-width: 100%; height: auto; display: block;}
     color: var(--brand-color);
     background-color: var(--light-color);
     border: var(--lighter-color);}
+.buttons-list{padding-bottom: 120px;}
 .buttons-ul{justify-content: center; 
             gap: 24px;
-            margin-bottom: 72px;
             margin-top: 96px;
             padding: 0;}
 .port-border{border-bottom: 1px solid var(--lighter-color);
@@ -214,19 +214,25 @@ img{max-width: 100%; height: auto; display: block;}
             justify-content: center;
             gap: 48px 24px;
             padding: 0;
+            padding-top: 72px;
             margin: 0;
             list-style: none;}
 .port-img{margin: 0; padding: 0;}
 .port-item{flex-basis: calc((100% - 48px) / 3);}
 .port-name{margin: 0;
+    margin-left: 16px;
     padding: 0;
+    padding-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
     letter-spacing: 0.02em;
     color: var(--darker-color)}
 .port-category{margin: 0;
+    margin-left: 16px;
     padding: 0;
+    padding-top: 8px;
+    padding-bottom: 32px;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
