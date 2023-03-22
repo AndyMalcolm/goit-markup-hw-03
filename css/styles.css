@@ -31,6 +31,7 @@ body {
 .header-add{list-style: none; font-style: normal;}
 .header-link:hover, .header-link:focus{color: var(--violet-color);}
 .header-mail{margin-right: 40px;
+    margin-left: 332px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -45,6 +46,9 @@ body {
     margin-right: 156px;
     margin: 0;
     padding: 0;}
+
+/*____SECTION ONE____*/
+
 .sec-one{background-color: var(--darker-color);
         padding-top: 188px;
         padding-bottom: 188px;}
@@ -86,6 +90,9 @@ color: var(--brand-color);}
     align-items: center;
     margin: 0; 
     padding: 0;}
+
+/*____SECTION TWO____*/
+
 .sec-two{padding: 120px 0 120px 0;}
 .visually-hidden{position: absolute;
                 width: 1px;
@@ -98,8 +105,8 @@ color: var(--brand-color);}
                 clip: rect(0 0 0 0);
                 overflow: hidden;}
 .sec-two-list{gap: 24px; padding: 0; margin: 0;}
-.sec-two-li{width: calc(100% - 72px) / 4;}
-.sec-two-item{
+.sec-two-li{width: calc((100% - 72px) / 4);}
+.sec-two-item{padding: 0;margin-bottom: 8px;
     font-weight: 500;
     letter-spacing: 0.02em;
     font-size: 20px;
@@ -111,13 +118,16 @@ color: var(--brand-color);}
     letter-spacing: 0.02em;
     color: var(--gray-color);
     }
+
+/*____SECTION THREE____*/
+
+.sec-three{margin-bottom: 120px;}
 .sec-three-list{gap: 24px;
     margin: 0;
-    margin-top: 72px;
     padding: 0;}
 img{max-width: 100%; height: auto; display: block;}
 .sec-three-h-two{
-    margin: 0;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -125,10 +135,12 @@ img{max-width: 100%; height: auto; display: block;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--darker-color);}
+
+/*____SECTION FOUR____*/
+
 .sec-four{background-color: var(--light-color);
     padding-top: 120px;
-    padding-bottom: 120px;
-    margin-top: 120px;}
+    padding-bottom: 120px;}
 .sec-four-item{background-color: var(--white-color);
                 width: 264px;
                 border-radius: 0px 0px 4px 4px;
@@ -157,15 +169,16 @@ img{max-width: 100%; height: auto; display: block;}
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--gray-color);
-margin-top: 8px;}
+    margin-top: 8px;}
 .sec-four-block{padding-top: 32px; padding-bottom: 32px;}
+
+/*____FOOTER____*/
+
 .footer{background-color: var(--darker-color);
     padding-top: 100px;
     padding-bottom: 100px;}
-.footer-div{margin-left: 156px;}
 .footer-text{
     margin-top: 18px;
-    padding: 0;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
